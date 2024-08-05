@@ -16,4 +16,4 @@ if st.button("Ir a Tarea 2"):
     redirigir("Tarea 2")
 
 if st.button("Ir a Tarea 2.1"):
-    redirigir("Tarea 2.1)
+    redirigir("Tarea 2.1")
