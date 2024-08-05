@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Configurar la página
-st.title("Tarea 2 de Estadística para la investigación")
+st.title("Tarea 2: Estadística para la investigación")
 
 # Definir los enlaces a los que se redirigirá
 enlace_1 = "https://www.example1.com"
