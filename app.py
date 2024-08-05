@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Configurar la página
-st.title("Redirección con Botones")
+st.title("Tarea 2 de Estadística para la investigación")
 
 # Definir los enlaces a los que se redirigirá
 enlace_1 = "https://www.example1.com"
@@ -12,8 +12,8 @@ def redirigir(url):
     st.markdown(f'<meta http-equiv="refresh" content="0; url={url}">', unsafe_allow_html=True)
 
 # Crear botones y redirigir al pulsarlos
-if st.button("Ir a Enlace 1"):
-    redirigir(enlace_1)
+if st.button("Tarea 2"):
+    redirigir(Tarea 2.1)
 
 if st.button("Ir a Enlace 2"):
     redirigir(enlace_2)
