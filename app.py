@@ -12,8 +12,8 @@ def redirigir(url):
     st.markdown(f'<meta http-equiv="refresh" content="0; url={url}">', unsafe_allow_html=True)
 
 # Crear botones y redirigir al pulsarlos
-if st.button("Tarea 2"):
-    redirigir(Tarea 2.1)
+if st.button("Ir a Tarea 2"):
+    redirigir("Tarea 2")
 
-if st.button("Ir a Enlace 2"):
-    redirigir(enlace_2)
+if st.button("Ir a Tarea 2.1"):
+    redirigir("Tarea 2.1)
