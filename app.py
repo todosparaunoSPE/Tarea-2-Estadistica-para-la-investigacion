@@ -1,19 +1,40 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jul  3 10:17:05 2024
+
+@author: jperezr
+"""
+
 import streamlit as st
 
-# Configurar la página
-st.title("Redirección con Botones")
+# Set the title
+st.title("CONSAR ESTADÍSTICAS")
 
-# Definir los enlaces a los que se redirigirá
-enlace_1 = "https://tarea-2-epi-fvyj9oahajx88jhxiunm9g.streamlit.app/"
-enlace_2 = "https://www.example2.com"
+# CSS to inject custom styles
+st.markdown("""
+    <style>
+    .stButton > button {
+        color: white;
+        background-color: #007BFF; /* Blue color */
+        border-radius: 10px;
+        padding: 10px 20px;
+        border: none;
+        font-size: 16px;
+    }
+    .stButton > button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
-# Función para redirigir al usuario
-def redirigir(url):
-    st.markdown(f'<meta http-equiv="refresh" content="0; url={url}">', unsafe_allow_html=True)
+# Create 3 buttons that link to Google
+if st.button('Tarea 2'):
+    st.write('[RECURSOS REGISTRADOS EN LAS AFORE](https://tarea-2-epi-fvyj9oahajx88jhxiunm9g.streamlit.app/)')
 
-# Crear botones y redirigir al pulsarlos
-if st.button("Ir a Enlace 1"):
-    redirigir(enlace_1)
+if st.button('Ir a FLUJO DE RECURSOS CANALIZADOS A LAS AFORES'):
+    st.write('[FLUJO DE RECURSOS CANALIZADOS A LAS AFORES](https://a2tnnbzmyvnykjh3r4hsah.streamlit.app/)')
 
-if st.button("Ir a Enlace 2"):
-    redirigir(enlace_2)
+
+
+
+st.sidebar.write("© 2024 Creado por: Javier Horacio Pérez Ricárdez")
