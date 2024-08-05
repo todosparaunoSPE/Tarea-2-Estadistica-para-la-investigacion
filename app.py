@@ -29,7 +29,7 @@ st.markdown("""
 
 # Create 3 buttons that link to Google
 if st.button('Tarea 2'):
-    st.write('[RECURSOS REGISTRADOS EN LAS AFORE](https://tarea-2-epi-fvyj9oahajx88jhxiunm9g.streamlit.app/)')
+    st.write('[Tarea 2](https://tarea-2-epi-fvyj9oahajx88jhxiunm9g.streamlit.app/)')
 
 if st.button('Ir a FLUJO DE RECURSOS CANALIZADOS A LAS AFORES'):
     st.write('[FLUJO DE RECURSOS CANALIZADOS A LAS AFORES](https://a2tnnbzmyvnykjh3r4hsah.streamlit.app/)')
