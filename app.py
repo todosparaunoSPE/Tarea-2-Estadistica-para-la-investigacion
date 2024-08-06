@@ -32,7 +32,7 @@ if st.button('Tarea 2'):
     st.write('[Tarea 2](https://tarea-2-epi-fvyj9oahajx88jhxiunm9g.streamlit.app/)')
 
 if st.button('Tarea 2.1'):
-    st.write('[Tarea 2.1](https://tarea-21-hpiqhe6e3ythirwzkjakgk.streamlit.app/)')
+    st.write('[Tarea 2.1](https://tarea-ejercicio-2-86hkpgucf4w7vw29z3ddln.streamlit.app/)')
 
 
 
